@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的APP测试页面</title>
+    <!-- <link href="http://prototype.ui.sh.ctriptravel.com/git/PackageTour/online/master/public/common/public_vacation130620.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="http://prototype.ui.sh.ctriptravel.com/git/PackageTour/online/master/group_travel/process/v2/css/book.css"> -->
+    <style>
+      body {
+        padding: 50px 100px;
+        font-size: 24px;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+<div id="root" class="bg_gray">
+    这时APP 的一个测试页面
+</div>
+<script>
+window.APP = {};
+APP.order ={};
+</script>
+<!-- <script src="../../../../../../dest/ResVacationOnline/js/vacation/lib/optionVendor.js"></script>
+<script type="text/javascript" src="http://webresource.c-ctrip.com/code/cquery/cQuery_110421.js" charset="utf-8"></script>
+<script type="text/javascript">window.$ = jQuery</script> -->
+<script>
+APP.order = {
+  para: {
+    ver: ''
+  },
+  vars: {
+    handles: {
+      OrderAsync:"/bookingnext/orderdetails/orderAsync",
+    },
+    initData: {//初始化的JSON数据
+      ProductType: 111,
+      OrderId: 2240060283,
+      productId:2272022,
+      ShoppingId:'356e192bd5814a91becd7b07db13d2c4',
+      ChatUrl: 'http://livechat.ctrip.com/livechat/Login.aspx?version=2.0&origin=3&GroupCode=tourpresales&p=g&AsFrom=11%7c5581078%7c1%7c1%7c%e5%8c%97%e4%ba%ac%7c633%7c%e7%ba%bd%e7%ba%a6%7c8%7c&productid=5581078',
+    }
+  }
+};
+</script>
+<script src="../../../../dist/js/app/orderList/orderList.js"></script>
+</body>
+</html>

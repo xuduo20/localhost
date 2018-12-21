@@ -1,0 +1,69 @@
+{
+    "errmsg": "OK",
+    "errno": 0,
+    "data": {
+      "Contract": null,
+      "IsShowCheckBox": false,
+      "ProductNotice": [
+        {
+          "ProductAddInfoID": 0,
+          "AddInfoTitleName": "预订须知",
+          "AddInfoSubTitleName": "预订限制",
+          "IsRegOrder": true,
+          "IsShowAtReserve": true,
+          "SortNum": 0,
+          "Timestamp": "0001-01-01T00:00:00",
+          "ProductAddInfoDetails": [
+            {
+              "DisplayNum": 0,
+              "DescDetail": "为方便您的机票出票，预订本产品需要填写所有出行人的身份证信息，敬请谅解！",
+              "EffectDate": "2015-01-26T00:00:00",
+              "ExpireDate": "2090-12-31T00:00:00",
+              "IsHighlight": false,
+              "SortNum": 1,
+              "Url": null,
+              "DepartureCityIDs": []
+            },
+            {
+              "DisplayNum": 0,
+              "DescDetail": "本产品资源特殊，预订成功后若更改、取消、退订，会产生全额损失。本产品资源特殊，产品确认后120分钟未付款，订单做取消处理，敬请谅解！",
+              "EffectDate": "2015-02-10T00:00:00",
+              "ExpireDate": "2090-12-31T00:00:00",
+              "IsHighlight": false,
+              "SortNum": 2,
+              "Url": null,
+              "DepartureCityIDs": []
+            }
+          ]
+        },
+        {
+          "ProductAddInfoID": 0,
+          "AddInfoTitleName": "预订须知",
+          "AddInfoSubTitleName": "出行须知",
+          "IsRegOrder": false,
+          "IsShowAtReserve": true,
+          "SortNum": 4,
+          "Timestamp": "0001-01-01T00:00:00",
+          "ProductAddInfoDetails": [
+            {
+              "DisplayNum": 0,
+              "DescDetail": "为普及旅游安全知识及旅游文明公约，使您的旅程顺利圆满完成，特制定<a href=\" http://pages.ctrip.com/tour/pdf3/20130930.pdf\" target=\"_blank\">《携程旅游告游客注意事项》</a>，请您认真阅读并切实遵守；",
+              "EffectDate": "1900-01-01T00:00:00",
+              "ExpireDate": "2063-12-31T00:00:00",
+              "IsHighlight": false,
+              "SortNum": 1,
+              "Url": null,
+              "DepartureCityIDs": []
+            }
+          ]
+        }
+      ],
+      "HotelNotice": null,
+      "FlightNotice": [
+        "8工作小时内确认",
+        "8工作小时内确认"
+      ],
+      "TrafficNotice": [],
+      "OverSeaTravelNotice": ""
+    }
+  }
